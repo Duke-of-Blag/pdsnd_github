@@ -10,9 +10,9 @@ bikeshare
 bikeshare helps you discover data gathered by a US bike-sharing company named Motivate.
 
 ### Files used
-chicago.csv
-new_york_city.csv
-washington.csv
+* chicago.csv
+* new_york_city.csv
+* washington.csv
 
 ### Credits
 https://www.udacity.com
