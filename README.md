@@ -9,6 +9,9 @@ bikeshare
 ### Description
 bikeshare helps you discover data gathered by a US bike-sharing company named Motivate.
 
+### Getting started
+Run bikeshare.py in the Python interpreter of your choice. Just make sure you have Python version 3.8.5 or later running and access to Pandas and Numpy.
+
 ### Files used
 * chicago.csv
 * new_york_city.csv
