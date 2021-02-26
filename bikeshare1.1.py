@@ -38,6 +38,13 @@ def get_filters():
             # break loop for valid input
             print("\nYour choice: {}\n".format(city))
             break
+        # strengthen code against invalid input   
+        elif city == nyc:
+            # dissolve abbreviation for New York City
+            city = "new york city"
+            # break loop for valid input
+            print("\nYour choice: {}\n".format(city))
+            break
         else:
             # sending back to input if input not valid
             print("That doesn't seem to be a valid input. " \
