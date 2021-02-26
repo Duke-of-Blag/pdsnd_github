@@ -38,7 +38,7 @@ def get_filters():
             # break loop for valid input
             print("\nYour choice: {}\n".format(city))
             break
-        # strengthen code against invalid input   
+        # strengthen code against invalid input
         elif city == nyc:
             # dissolve abbreviation for New York City
             city = "new york city"
@@ -291,7 +291,7 @@ def raw_data(df):
     count = 0
 
     while True:
-        answer = input('\nWould you like to see 5 lines of raw data? Enter yes or no: ')
+        answer = input('\nWould you like to see 5 lines of raw data? Enter yes or skip raw data with any key: ')
         # Check if response is yes, print the raw data and increment count by 5
         if answer.strip().lower() == 'yes':
             print('\nRows with index {} to {}:\n'.format(count, count+4))
